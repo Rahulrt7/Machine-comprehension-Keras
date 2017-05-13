@@ -20,7 +20,7 @@ Other notebooks are given for reference purpose like:
 - Machine Comprehension(LSTM-char embeddings).ipynb: An alternative model using char-embeddings rather than word embeddings, but not as effective as the final model.
 - Save_data.py: Preprocessing and saving data to be used  afterwards for training.
 - Screeenshot: Plot showing GPU's memory and graphics usage at training time. CPU usage is also provided.
-- Others: Other files are rather .py files corresponding to their .ipynb files or the data files storing training data and dicitonries.
+- Others: Other files are rather .py files corresponding to their .ipynb files or the data files storing training data and dictionaries.
 
 # GPU used for training:
 Single Nvidia GTX 970
