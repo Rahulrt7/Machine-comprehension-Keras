@@ -1,5 +1,5 @@
 # Machine-comprehension-Keras
-Context based Question-Answering model based on SimpleQA paper for Stanford SQuAd Dataset.
+Context based Question-Answering model based on NeuralQA paper for Stanford SQuAd Dataset.
 
 # Dependencies
 - keras 2.0 [tensorflow backend]
@@ -13,6 +13,14 @@ Other notebooks are given for reference purpose like:
 - How word and char embeddings are computed using CNN and LSTM (both of them had their pros and cons)
 - How Glove embeddings are used rather than training the model to learn them from scratch.
 - What was the loss after 1 epoch and how much time it took to complete just single epoch.
+
+# Files
+- CNN-char embeddings.ipynb: Contains code to compute CNN embeddings upon chars. This code can be employed with glove embeddings to increase accuracy, but will make the model even more computationaly expensive.
+- Machine Comprehension (Glove word embeddings).ipynb: Code for the best model I was able to obtain till now after failing at various models.
+- Machine Comprehension(LSTM-char embeddings).ipynb: An alternative model using char-embeddings rather than word embeddings, but not as effective as the final model.
+- Save_data.py: Preprocessing and saving data to be used  afterwards for training.
+- Screeenshot: Plot showing GPU's memory and graphics usage at training time. CPU usage is also provided.
+- Others: Other files are rather .py files corresponding to their .ipynb files or the data files storing training data and dicitonries.
 
 # GPU used for training:
 Single Nvidia GTX 970
