@@ -1,3 +1,6 @@
+# Note:
+This project is not complete. I am still working on it and not yet able to produce any results. The best use of this project could be to understand how one can tackle Machine Comprehension task using Keras library. 
+
 # Machine-comprehension-Keras
 Context based Question-Answering model based on NeuralQA paper for Stanford SQuAd Dataset.
 
